@@ -10,7 +10,7 @@
 ##############################################################################
 
 tmux                      # 创建新的 session
-tmux new -S name          # 创建新的 session 并指定一个name
+tmux new -s name          # 创建新的 session 并指定一个name
 tmux ls                   # 查看多少个后台工作的 session
 tmux a/at/attach          # 重新连接 session 
 tmux a/at/attach -t num   # 如果有多个 session, 指定 session num 连接
